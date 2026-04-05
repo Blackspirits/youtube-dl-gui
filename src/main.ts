@@ -14,7 +14,7 @@ import { binaryHandlers } from '../tests/utils/mocks/binaryHandlers';
 import { updateHandlers } from '../tests/utils/mocks/updateHandlers';
 import { invoke } from '@tauri-apps/api/core';
 import { strongholdHandlers } from '../tests/utils/mocks/strongholdHandlers';
-import { getDefaultLocale, i18n } from './i18n';
+import { getDefaultLocale, i18n, type Locale } from './i18n';
 import { createSentryPiniaPlugin } from '@sentry/vue';
 import { createSentry } from './sentry.ts';
 import { startWindowWatcher } from './tauri/window.ts';
@@ -76,12 +76,12 @@ async function initStores(): Promise<void> {
       applyTheme(settings.appearance.theme);
     }
 
-    const locale = i18n.global.locale;
-    locale.value = settings.appearance.language === 'system'
+    const currentLocale: Locale = settings.appearance.language === 'system'
       ? getDefaultLocale()
-      : settings.appearance.language;
+      : settings.appearance.language as Locale;
 
-    document.documentElement.setAttribute('lang', locale.value);
+    i18n.global.locale = currentLocale;
+    document.documentElement.setAttribute('lang', currentLocale);
   } catch (e) {
     console.error(`Unable to load settings: ${e}`);
   }

@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import { invoke } from '@tauri-apps/api/core';
-import { getDefaultLocale, i18n } from '../i18n';
+import { getDefaultLocale, i18n, type Locale } from '../i18n';
 import { defaultSettings } from '../tauri/types/config.ts';
 import { Settings } from '../tauri/types/config.ts';
 
@@ -35,12 +35,14 @@ export const useSettingsStore = defineStore('settings', () => {
 
   function applySettings(cfg: Settings) {
     Object.assign(settings.value, cfg);
-    if (cfg.appearance.language) {
-      i18n.global.locale = cfg.appearance.language === 'system'
-        ? getDefaultLocale()
-        : cfg.appearance.language;
 
-      document.documentElement.setAttribute('lang', i18n.global.locale);
+    if (cfg.appearance.language) {
+      const currentLocale: Locale = cfg.appearance.language === 'system'
+        ? getDefaultLocale()
+        : cfg.appearance.language as Locale;
+
+      i18n.global.locale = currentLocale;
+      document.documentElement.setAttribute('lang', currentLocale);
     }
   }
 
