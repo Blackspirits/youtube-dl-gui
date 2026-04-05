@@ -1,4 +1,4 @@
-import { createApp, Ref } from 'vue';
+import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import App from './App.vue';
 import './app.css';
@@ -75,10 +75,12 @@ async function initStores(): Promise<void> {
     if (settings.appearance.theme !== 'system') {
       applyTheme(settings.appearance.theme);
     }
-    const locale = i18n.global.locale as Ref<string>;
+
+    const locale = i18n.global.locale;
     locale.value = settings.appearance.language === 'system'
       ? getDefaultLocale()
       : settings.appearance.language;
+
     document.documentElement.setAttribute('lang', locale.value);
   } catch (e) {
     console.error(`Unable to load settings: ${e}`);
