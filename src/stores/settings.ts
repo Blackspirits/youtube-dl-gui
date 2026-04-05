@@ -36,11 +36,11 @@ export const useSettingsStore = defineStore('settings', () => {
   function applySettings(cfg: Settings) {
     Object.assign(settings.value, cfg);
     if (cfg.appearance.language) {
-      const locale = i18n.global.locale;
-      locale.value = cfg.appearance.language === 'system'
+      i18n.global.locale = cfg.appearance.language === 'system'
         ? getDefaultLocale()
         : cfg.appearance.language;
-      document.documentElement.setAttribute('lang', locale.value);
+
+      document.documentElement.setAttribute('lang', i18n.global.locale);
     }
   }
 

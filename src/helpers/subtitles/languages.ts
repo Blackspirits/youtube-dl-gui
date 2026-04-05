@@ -27,7 +27,7 @@ export const languageOptions: SubtitleLanguageOption[] = [...codes, ...Object.ke
   .sort((a, b) => a.englishName.localeCompare(b.englishName));
 
 export const languageOptionsLookup = new Map(
-  languageOptions.map((option) => [option.code, option] as const),
+  languageOptions.map(option => [option.code, option] as const),
 );
 
 function normalizeLocale(candidate: string): string {
