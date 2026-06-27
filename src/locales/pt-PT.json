@@ -11,7 +11,7 @@
     "continue": "Continuar",
     "retry": "Tentar novamente",
     "enable": "Ativar",
-    "pleaseWait": "Por favor, aguarde…",
+    "pleaseWait": "Aguarda…",
     "loading": "A carregar",
     "emptySearch": "Nenhum resultado encontrado.",
     "parenthesis": "({content})",
@@ -24,33 +24,33 @@
   },
   "layout": {
     "header": {
-      "placeholder": "Insira a URL de um vídeo/lista de reprodução para adicionar à fila",
+      "placeholder": "Insere um URL de vídeo/playlist para adicionar à fila",
       "nav": {
-        "settings": "Definições da App"
+        "settings": "Definições da aplicação"
       }
     },
     "footer": {
       "progress": {
         "downloading": "A transferir a fila - {done} de {total} concluídos.",
         "completed": "Transferência concluída – {n} item transferido. | Transferência concluída – {n} itens transferidos.",
-        "ready": "Pronto para transferir! {n} item na fila. | Pronto para transferir! {n} itens na fila."
+        "ready": "Pronto a transferir! {n} item na fila. | Pronto a transferir! {n} itens na fila."
       },
       "nav": {
-        "downloadLocation": "Pasta de transferências",
+        "downloadLocation": "Localizações",
         "login": {
           "screenReader": {
-            "on": "Editar login (atualmente ligado)",
-            "off": "Editar login (atualmente desligado)"
+            "on": "Editar autenticação (sessão iniciada)",
+            "off": "Editar autenticação (sessão não iniciada)"
           },
           "tooltip": {
-            "on": "Editar login",
+            "on": "Editar autenticação",
             "off": "Iniciar sessão"
           }
         },
         "subtitles": {
           "screenReader": {
-            "on": "Editar legendas (atualmente ativado)",
-            "off": "Editar legendas (atualmente desativado)"
+            "on": "Editar legendas (ativadas)",
+            "off": "Editar legendas (desativadas)"
           },
           "tooltip": "Legendas"
         }
@@ -82,22 +82,22 @@
     "cookies": {
       "legend": "Cookies",
       "legendBadge": "Recomendado",
-      "legendLabel": "Use sessões iniciadas a partir de um ficheiro de cookies ou importe-as do seu navegador.",
+      "legendLabel": "Utiliza sessões iniciadas a partir de um ficheiro de cookies ou importa-as do teu navegador.",
       "file": {
         "label": "Carregar cookies de um ficheiro cookies.txt",
-        "hint": "Para exportar as suas cookies para um ficheiro {link}",
-        "hintLink": "consulte o guia."
+        "hint": "Para exportares os teus cookies para um ficheiro, {link}",
+        "hintLink": "consulta o guia."
       },
       "browser": {
-        "label": "Carregar cookies automaticamente de um navegador:",
+        "label": "Carregar automaticamente cookies a partir de um navegador:",
         "placeholder": "Não carregar cookies de um navegador",
-        "hint": "Alguns navegadores podem não suportar o carregamento de cookies. Consulte a {link}",
+        "hint": "Alguns navegadores podem não suportar o carregamento de cookies. Consulta a {link}",
         "hintLink": "lista de navegadores compatíveis."
       }
     },
     "credentials": {
       "title": "Métodos avançados",
-      "description": "Utilize métodos como autenticação básica, tokens bearer, cabeçalhos, palavra-passe de vídeo, etc.",
+      "description": "Utiliza métodos como autenticação básica, bearer tokens, cabeçalhos, palavra-passe do vídeo, etc.",
       "labels": {
         "username": "Nome de utilizador",
         "password": "Palavra-passe",
@@ -106,15 +106,15 @@
       },
       "basicAuth": {
         "legend": "Autenticação básica",
-        "legendLabel": "Usado para sites com autenticação simples."
+        "legendLabel": "Utilizada em sites com autenticação simples."
       },
       "videoPassword": {
         "legend": "Palavra-passe do vídeo",
-        "legendLabel": "Forneça uma palavra-passe para aceder a vídeos protegidos."
+        "legendLabel": "Fornece uma palavra-passe para aceder a vídeos protegidos."
       },
       "bearerToken": {
-        "legend": "Token Bearer",
-        "legendLabel": "Forneça um token bearer para aceder a recursos privados."
+        "legend": "Bearer token",
+        "legendLabel": "Fornece um bearer token para aceder a recursos privados."
       },
       "customHeaders": {
         "legend": "Cabeçalhos personalizados",
@@ -125,11 +125,11 @@
     },
     "init": {
       "title": "Armazenamento de segredos não ativado",
-      "description": "Para utilizar métodos de autenticação avançados, é necessário ativar o armazenamento de segredos.",
-      "hint": "O armazenamento de segredos utiliza o chaveiro do seu sistema, o que pode exigir uma palavra-passe.",
+      "description": "Para utilizares métodos de autenticação avançados, o armazenamento de segredos tem de ser ativado.",
+      "hint": "O armazenamento de segredos utiliza o gestor de credenciais do teu sistema. Isto pode exigir uma palavra-passe.",
       "error": {
         "title": "Não foi possível ativar o armazenamento de segredos",
-        "description": "Ocorreu um erro ao ativar o armazenamento de segredos, tente novamente.",
+        "description": "Ocorreu um erro ao ativar o armazenamento de segredos. Tenta novamente.",
         "hint": "Erro: {error}",
         "unknown": "Erro desconhecido"
       },
@@ -150,17 +150,17 @@
       },
       "thumbnailAlt": "Miniatura de {title}",
       "metadata": {
-        "uploader": "Enviador:",
+        "uploader": "Autor:",
         "extractor": "Extrator:",
         "link": "Link:",
         "chapters": "Capítulos",
         "description": "Descrição"
       },
       "stats": {
-        "title": "Estatísticas do Vídeo",
+        "title": "Estatísticas do vídeo",
         "views": "Visualizações",
         "likes": "Gostos",
-        "dislikes": "Não gostos",
+        "dislikes": "Não gosto",
         "comments": "Comentários",
         "rating": "Classificação",
         "duration": "Duração"
@@ -172,8 +172,8 @@
           "empty": "Nenhum erro encontrado."
         },
         "warnings": {
-          "count": "Advertências ({count})",
-          "empty": "Nenhuma advertência encontrada."
+          "count": "Avisos ({count})",
+          "empty": "Nenhum aviso encontrado."
         },
         "all": {
           "title": "Todos os registos",
@@ -187,20 +187,20 @@
     },
     "preferences": {
       "badges": {
-        "override": "Sobrescrever"
+        "override": "Substituir"
       },
       "labels": {
-        "quality": "Escolha as preferências de formato, codec e faixa.",
-        "network": "Configure proxy, personificação, definições do extrator e cabeçalhos de solicitação. Sobrescreve os padrões da app para esta transferência.",
-        "output": "Configure o contentor, a conversão e modelos de nome de ficheiro. Sobrescreve os padrões da app para esta transferência.",
-        "subtitles": "Escolha as legendas para esta transferência.",
+        "quality": "Escolhe as preferências de formato, codec e faixas.",
+        "network": "Configura proxy, mascaramento de cliente e cabeçalhos de pedido. Substitui as predefinições da aplicação para esta transferência.",
+        "output": "Configura contentor, conversão e modelos de nome de ficheiro. Substitui as predefinições da aplicação para esta transferência.",
+        "subtitles": "Escolhe as legendas para esta transferência.",
         "headersOverride": "Um por linha: CAMPO:VALOR. Substitui os cabeçalhos globais para esta transferência."
       },
       "subtitles": {
         "empty": "Nenhuma legenda encontrada para esta transferência.",
         "languages": {
           "legend": "Idiomas disponíveis",
-          "hint": "Apenas estas legendas podem ser transferidas para este item.",
+          "hint": "Só estas legendas podem ser transferidas para este item.",
           "manual": "Fornecidas pelo criador",
           "auto": "Geradas automaticamente",
           "noneManual": "Nenhuma legenda do criador encontrada.",
@@ -208,9 +208,9 @@
         }
       },
       "hints": {
-        "format": "Escolha a qualidade de vídeo ou áudio. Uma qualidade mais alta geralmente significa ficheiros maiores e transferências mais demoradas.",
-        "encodings": "Escolha os codecs preferidos. Útil para compatibilidade de reprodução ou para manter a qualidade original.",
-        "tracks": "Escolha variantes de idioma ou canal quando disponíveis, por exemplo, áudio dobrado."
+        "format": "Escolhe a qualidade de vídeo ou áudio. Normalmente, maior qualidade significa ficheiros maiores e transferências mais longas.",
+        "encodings": "Escolhe os codecs preferidos. Útil para compatibilidade de reprodução ou para manter a qualidade original.",
+        "tracks": "Escolhe variantes de idioma ou canal quando disponíveis, por exemplo áudio dobrado."
       },
       "tabs": {
         "quality": "Qualidade",
@@ -226,7 +226,7 @@
       "configure": {
         "format": {
           "trackSelect": {
-            "screenReader": "Selecionar faixa para transferir"
+            "screenReader": "Selecionar faixa a transferir"
           },
           "formatSelect": {
             "noFormats": "Sem formatos",
@@ -263,9 +263,9 @@
         "metadata": {
           "duration": "Duração: {duration}",
           "size": "Tamanho: ",
-          "sizeInfo": "A quantidade de dados que será transferida.\nNão é o tamanho final do ficheiro.",
+          "sizeInfo": "Quantidade de dados que será transferida.\nNão é o tamanho final do ficheiro.",
           "items": "Itens: {amount} {failedCount}",
-          "failedCount": "({amount} falhas)"
+          "failedCount": "({amount} com falha)"
         },
         "trackTypes": {
           "both": "Vídeo + Áudio",
@@ -283,13 +283,13 @@
           "subtitles": "legendas",
           "thumbnail": "miniatura",
           "metadata": "metadados",
-          "other": "outros"
+          "other": "outro"
         },
         "status": {
           "initializing": "A inicializar",
           "downloading": "A transferir",
-          "merging": "A mesclar",
-          "remuxing": "A remuxar",
+          "merging": "A combinar",
+          "remuxing": "A remultiplexar",
           "reencoding": "A recodificar",
           "finalizing": "A limpar"
         },
@@ -299,20 +299,20 @@
         }
       },
       "paused": {
-        "progress": "Transferência pausada — {percentage}%",
-        "progressList": "Transferência pausada — {percentage}% — {done} de {total}",
-        "indeterminate": "Transferência pausada",
+        "progress": "Transferência em pausa — {percentage}%",
+        "progressList": "Transferência em pausa — {percentage}% — {done} de {total}",
+        "indeterminate": "Transferência em pausa",
         "metadata": {
           "eta": "Restante: {eta}",
-          "etaItems": "Restante: {n} item | Restante: {n} itens"
+          "etaItems": "Resta {n} item | Restam {n} itens"
         }
       },
       "done": {
-        "complete": "Transferência completa — 100%",
+        "complete": "Transferência concluída — 100%",
         "showFolder": "Mostrar na pasta",
         "open": "Abrir ficheiro",
-        "openFirst": "Abrir primeiro ficheiro",
-        "undeterminedLocation": "Não foi possível determinar a pasta de transferências para este item."
+        "openFirst": "Abrir o primeiro ficheiro",
+        "undeterminedLocation": "Não foi possível determinar a localização da transferência para este item."
       },
       "error": {
         "errorPrefix": "Erro - {message}",
@@ -324,8 +324,8 @@
     "card": {
       "actions": {
         "remove": "Remover",
-        "externalUrl": "Visitar URL externa",
-        "retry": "Tentar transferência novamente",
+        "externalUrl": "Visitar URL externo",
+        "retry": "Tentar novamente",
         "download": "Transferir individualmente",
         "preferences": "Preferências de transferência",
         "pause": "Pausar transferência",
@@ -333,51 +333,51 @@
         "metadata": "Mostrar metadados"
       },
       "toasts": {
-        "retry": "A tentar transferir novamente.",
-        "retryError": "Não foi possível tentar transferir novamente."
+        "retry": "A tentar novamente a transferência.",
+        "retryError": "Não foi possível voltar a tentar a transferência."
       }
     }
   },
   "subtitles": {
     "title": "Legendas",
     "defaults": {
-      "legend": "Definições padrão de legendas",
-      "hint": "Usado quando um vídeo tem legendas."
+      "legend": "Predefinições de legendas",
+      "hint": "Utilizadas quando um vídeo tem legendas."
     },
     "options": {
       "enable": {
-        "legend": "Transferências de legendas",
-        "legendLabel": "Escolha as definições padrão de legendas.",
+        "legend": "Transferência de legendas",
+        "legendLabel": "Escolhe como as legendas devem ser obtidas ao transferir multimédia.",
         "label": "Ativar legendas",
-        "hint": "Transferir legendas quando estiverem disponíveis."
+        "hint": "Transfere ficheiros de legendas juntamente com o teu conteúdo multimédia."
       },
       "autoGenerated": {
-        "label": "Transferir legendas geradas automaticamente",
-        "hint": "Transferir também legendas automáticas quando estiverem disponíveis."
+        "label": "Incluir legendas geradas automaticamente",
+        "hint": "Transfere legendas geradas automaticamente além das fornecidas pelo criador."
       },
       "format": {
         "legend": "Formato preferido",
-        "legendLabel": "Selecione o seu formato de legenda preferido. Caso o formato não esteja disponível, será utilizado o próximo formato mais adequado.",
+        "legendLabel": "Seleciona o teu formato de legendas preferido. Se o formato não estiver disponível, será utilizado o melhor formato seguinte.",
         "label": "Formato"
       },
       "embed": {
         "label": "Adicionar faixa de legendas:",
-        "hint": "Adiciona legendas ao ficheiro de vídeo; funciona para os formatos MP4, MKV e WebM."
+        "hint": "Adiciona as legendas ao ficheiro de vídeo. Funciona com os formatos mp4, mkv e webm."
       },
       "languages": {
         "legend": "Idiomas",
-        "legendLabel": "Escolha os idiomas de legenda preferidos.",
+        "legendLabel": "Escolhe os idiomas das legendas a transferir.",
         "downloadAll": "Transferir todas as legendas disponíveis.",
-        "search": "Procurar idiomas",
+        "search": "Pesquisar idiomas",
         "searchPlaceholder": "Pesquisar por nome do idioma",
         "noResult": "Nenhum idioma corresponde a \"{query}\".",
-        "selected": "Selecionado(s):",
+        "selected": "Selecionados:",
         "allSelected": "Todas as legendas disponíveis"
       }
     },
     "toasts": {
       "saved": "Definições de legendas guardadas!",
-      "error": "Não foi possível guardar as definições de legenda. {error}"
+      "error": "Não foi possível guardar as definições de legendas. {error}"
     },
     "formats": {
       "srt": "SubRip (.srt)",
@@ -388,128 +388,128 @@
     }
   },
   "location": {
-    "title": "Pasta de transferências",
+    "title": "Localização da transferência",
     "downloadDir": {
-      "label": "Pasta de transferências",
-      "hint": "Clique no campo para selecionar onde os vídeos serão transferidos."
+      "label": "Localização da transferência",
+      "hint": "Clica na caixa para escolher onde os vídeos serão transferidos."
     },
     "directory": {
       "legend": "Organizar por",
-      "legendLabel": "Selecione como as transferências serão organizadas em pastas.",
+      "legendLabel": "Seleciona como as transferências são organizadas em pastas.",
       "videoDir": {
-        "label": "Caminho de gravação:",
-        "hint": "Substitui a pasta de transferências global ao transferir vídeos."
+        "label": "Localização da transferência:",
+        "hint": "Substitui a localização global da transferência ao transferir vídeos."
       },
       "audioDir": {
-        "label": "Caminho de gravação:",
-        "hint": "Substitui a pasta de transferências global ao transferir áudio."
+        "label": "Localização da transferência:",
+        "hint": "Substitui a localização global da transferência ao transferir áudio."
       },
       "directoryPreset": {
         "label": "Organizar transferências por:",
         "exampleLabel": "Exemplo de saída:",
         "options": {
           "none": "Sem subpastas",
-          "playlist": "Lista de reprodução",
+          "playlist": "Playlist",
           "channel": "Canal",
-          "channelPlaylist": "Canal → lista de reprodução",
+          "channelPlaylist": "Canal → playlist",
           "yearMonth": "Ano / mês",
           "artistAlbum": "Artista → álbum",
           "custom": "Personalizado"
         },
         "examples": {
-          "playlist": "Minha Lista de Reprodução/",
-          "channel": "MeuCanal/",
-          "channelPlaylist": "MeuCanal/Minha Lista de Reprodução/",
+          "playlist": "A Minha Playlist/",
+          "channel": "O Meu Canal/",
+          "channelPlaylist": "O Meu Canal/A Minha Playlist/",
           "yearMonth": "2025/03/",
           "artistAlbum": "Nome do Artista/Nome do Álbum/"
         }
       },
       "outputFormat": {
-        "label": "Formato do diretório:"
+        "label": "Formato da pasta:"
       }
     },
     "filename": {
-      "legend": "Formato do nome do ficheiro",
-      "legendLabel": "Selecione o nome que as transferências terão.",
+      "legend": "Formato do nome de ficheiro",
+      "legendLabel": "Seleciona o nome que as transferências terão.",
       "reversePlaylistNumbering": {
-        "label": "Inverter numeração da lista de reprodução:",
-        "hint": "Numerar os itens da lista de reprodução a partir do fim em vez do início."
+        "label": "Inverter numeração da playlist:",
+        "hint": "Numera os itens da playlist a partir do fim em vez do início."
       },
       "formatPreset": {
-        "label": "Predefinição do nome do ficheiro:",
+        "label": "Predefinição de nome de ficheiro:",
         "exampleLabel": "Exemplo de saída:",
         "options": {
           "titleQuality": "Título + qualidade",
-          "titleOnly": "Apenas título",
-          "titleQualityPlaylist": "Lista + título + qualidade",
+          "titleOnly": "Só título",
+          "titleQualityPlaylist": "Playlist + título + qualidade",
           "custom": "Personalizado"
         },
         "examples": {
           "video": {
-            "titleQuality": "Meu Vídeo-(1080p30).mp4",
-            "titleOnly": "Meu Vídeo.mp4",
-            "titleQualityPlaylist": "03-Meu Vídeo-(1080p30).mkv"
+            "titleQuality": "O Meu Vídeo-(1080p30).mp4",
+            "titleOnly": "O Meu Vídeo.mp4",
+            "titleQualityPlaylist": "03-O Meu Vídeo-(1080p30).mkv"
           },
           "audio": {
-            "titleQuality": "Meu Áudio-(320k).mp3",
-            "titleOnly": "Meu Áudio.mp3",
-            "titleQualityPlaylist": "03-Meu Áudio-(320k).mp3"
+            "titleQuality": "O Meu Áudio-(320k).mp3",
+            "titleOnly": "O Meu Áudio.mp3",
+            "titleQualityPlaylist": "03-O Meu Áudio-(320k).mp3"
           }
         },
         "restrictFilenames": {
-          "label": "Restringir nomes de ficheiros:",
-          "hint": "Substitui espaços por sublinhados e remove caracteres especiais como \"&\" dos nomes dos ficheiros."
+          "label": "Restringir nomes de ficheiro:",
+          "hint": "Substitui espaços por sublinhados e remove caracteres especiais como \"&\" dos nomes de ficheiro."
         }
       },
       "outputFormat": {
-        "label": "Formato do nome do ficheiro:"
+        "label": "Formato do nome de ficheiro:"
       }
     },
     "toasts": {
-      "saved": "Caminhos de gravação guardados!",
-      "error": "Não foi possível guardar os caminhos de gravação."
+      "saved": "Localizações guardadas!",
+      "error": "Não foi possível guardar as localizações."
     }
   },
   "settings": {
     "title": "Definições",
     "reset": {
-      "label": "Restaurar",
-      "confirm": "Clique novamente para restaurar"
+      "label": "Repor",
+      "confirm": "Clica novamente para repor"
     },
     "tabs": {
       "downloads": "Transferências",
-      "app": "App",
+      "app": "Aplicação",
       "network": "Rede",
       "system": "Sistema",
-      "about": "Acerca de"
+      "about": "Acerca"
     },
     "performance": {
       "legend": "Desempenho",
-      "legendLabel": "Configure quantos recursos do sistema são utilizados.",
+      "legendLabel": "Configura quantos recursos do sistema são utilizados.",
       "maxConcurrency": {
-        "label": "Número máximo de tarefas simultâneas:"
+        "label": "Máximo de tarefas em simultâneo:"
       },
       "splitPlaylistThreshold": {
-        "label": "Dividir listas de reprodução em vídeos separados quando:",
+        "label": "Separar playlists em vídeos individuais quando:",
         "options": {
-          "never": "Nunca dividir",
+          "never": "Nunca separar",
           "lessThan": "Menos de {number} vídeos"
         }
       },
       "autoLoadSize": {
-        "label": "Carregar tamanho do vídeo automaticamente:"
+        "label": "Carregar automaticamente o tamanho do vídeo:"
       }
     },
     "input": {
       "legend": "Entrada",
-      "legendLabel": "Escolha como deseja iniciar a transferência com o OVD.",
+      "legendLabel": "Escolhe como inicias transferências com o OVD.",
       "autoFillClipboard": {
-        "label": "Preencher links copiados automaticamente:",
-        "hint": "Deteta links copiados, para que possa transferi-los com um clique."
+        "label": "Preencher automaticamente links copiados:",
+        "hint": "Deteta links que copiaste para que possas transferi-los com um clique."
       },
       "preferVideoInMixedLinks": {
-        "label": "Preferir vídeo único para links de lista de reprodução:",
-        "hint": "Quando um link contém um vídeo e uma lista de reprodução, transferir apenas o vídeo em vez da lista de reprodução completa."
+        "label": "Preferir vídeo único em links de playlists:",
+        "hint": "Quando um link contém um vídeo e uma playlist, transfere apenas o vídeo em vez da playlist completa."
       },
       "globalShortcuts": {
         "label": "Ativar atalhos:",
@@ -517,63 +517,63 @@
         "download_hint": "Transferir a fila com:"
       },
       "authentication": {
-        "label": "Fazer login para transferir vídeos privados:",
-        "link": "Definir autenticação"
+        "label": "Iniciar sessão para transferir vídeos privados:",
+        "link": "Configurar autenticação"
       }
     },
     "output": {
       "legend": "Saída",
-      "legendLabel": "Configure que tipos de ficheiros são transferidos.",
+      "legendLabel": "Configura que tipo de ficheiros são transferidos.",
       "addThumbnail": {
         "label": "Adicionar imagem de capa:",
-        "hint": "Incorpora a miniatura dentro do ficheiro para que os reprodutores de média possam exibir a arte."
+        "hint": "Incorpora a miniatura no ficheiro para que os leitores multimédia possam mostrar a capa."
       },
       "saveThumbnail": {
         "label": "Guardar ficheiro de miniatura:",
-        "hint": "Transfira a melhor miniatura disponível ao lado do ficheiro de média."
+        "hint": "Transfere a melhor miniatura disponível junto ao ficheiro multimédia."
       },
       "addMetadata": {
-        "label": "Adicionar título e informações do artista:",
+        "label": "Adicionar título e informação do artista:",
         "hint": "Guarda metadados como título, autor/artista e descrição dentro do ficheiro."
       },
       "preciseCuts": {
         "label": "Corte preciso:",
-        "hint": "Corta em fotogramas exatos em vez de fotogramas-chave próximos. Muito lento.\nAtive apenas se os cortes normais estiverem errados, truncados ou tiverem segmentos pretos/em falta."
+        "hint": "Corta nos fotogramas exatos em vez de perto dos fotogramas-chave. Muito lento.\nAtiva apenas se os cortes normais estiverem errados, distorcidos ou tiverem segmentos pretos/em falta."
       },
       "partialDownload": {
         "legend": "Transferência parcial",
-        "hint": "Use timestamps ou capítulos para transferir apenas algumas partes.",
-        "use": "Usar",
-        "useTimes": "Marcas de tempo",
+        "hint": "Define timestamps ou capítulos para transferir apenas algumas partes.",
+        "use": "Utilizar",
+        "useTimes": "Timestamps",
         "useChapter": "Capítulos",
         "chapter": "Capítulo",
-        "startAt": "Início",
-        "stopAt": "Fim",
+        "startAt": "Começar em",
+        "stopAt": "Parar em",
         "invalidHint": "Timestamps inválidos serão ignorados.",
         "allChapters": "Todos os capítulos",
         "errors": {
-          "invalid": "Digite um horário válido.",
-          "beforeStart": "O fim precisa de ser depois do início.",
+          "invalid": "Introduz uma hora válida.",
+          "beforeStart": "A hora de fim tem de ser posterior à hora de início.",
           "exceedsDuration": "O timestamp não pode exceder a duração do vídeo."
         }
       },
       "location": {
-        "label": "Pasta de transferências e nomes de ficheiros:",
-        "link": "Definir pastas de transferência"
+        "label": "Localização da transferência e nomes de ficheiro:",
+        "link": "Configurar localizações de transferência"
       },
       "subtitles": {
         "label": "Adicionar legendas:",
-        "link": "Definir legendas"
+        "link": "Configurar legendas"
       },
       "keepOriginalStreams": {
-        "label": "Manter fluxos originais",
-        "hint": "Evita a conversão de contentor e a recodificação, a menos que um passo de pós-processamento selecionado o exija."
+        "label": "Manter streams originais",
+        "hint": "Evita a conversão de contentor e a recodificação, exceto se um passo de pós-processamento selecionado o exigir."
       },
       "postprocess": {
         "label": "Pós-processamento de vídeo:",
-        "hint": "O pós-processamento é executado após o fim da transferência.",
-        "reencodeWarning": "Esta opção recodifica e pode demorar bastante tempo.",
-        "keepOriginalStreamsConflict": "Esta opção exige recodificação. Desative «Manter fluxos originais» para a utilizar.",
+        "hint": "O pós-processamento é executado depois de a transferência terminar.",
+        "reencodeWarning": "Esta opção irá recodificar; é pesada e pode demorar muito tempo.",
+        "keepOriginalStreamsConflict": "Esta opção requer recodificação. Desativa Manter streams originais para a utilizares.",
         "mp42RequiresMp4": "Esta opção requer saída MP4.",
         "options": {
           "none": "Nenhum",
@@ -584,15 +584,15 @@
       },
       "postprocessMode": {
         "label": "Modo de pós-processamento personalizado:",
-        "hint": "Escolha se os argumentos personalizados do FFmpeg devem ser executados durante o remux ou a recodificação.",
+        "hint": "Escolhe se os argumentos ffmpeg personalizados são executados durante a remultiplexagem ou a recodificação.",
         "options": {
-          "remux": "Executar durante o remux",
+          "remux": "Executar durante a remultiplexagem",
           "reencode": "Executar durante a recodificação"
         }
       },
       "postprocessArgs": {
-        "label": "Args avançados do FFmpeg:",
-        "hint": "Apenas para utilizadores avançados. Separe os argumentos com espaços; as aspas são preservadas."
+        "label": "Argumentos avançados do ffmpeg:",
+        "hint": "Apenas para utilizadores avançados. Separa os argumentos com espaços; os valores entre aspas são preservados."
       },
       "tabs": {
         "audio": {
@@ -600,7 +600,7 @@
           "label": "Áudio",
           "format": {
             "label": "Formato de áudio:",
-            "hint": "Escolha o formato de áudio preferido.",
+            "hint": "Escolhe o formato de áudio preferido. O modo de conversão decide se o ficheiro será realmente convertido.",
             "options": {
               "mp3": "MP3 (recomendado)",
               "m4a": "M4A",
@@ -624,7 +624,7 @@
           "label": "Vídeo",
           "container": {
             "label": "Formato de vídeo:",
-            "hint": "Escolha o contentor de vídeo preferido.",
+            "hint": "Escolhe o formato de vídeo preferido. O modo de conversão decide se o ficheiro será realmente convertido.",
             "options": {
               "mp4": "MP4",
               "mkv": "MKV"
@@ -634,8 +634,8 @@
       }
     },
     "appearance": {
-      "legend": "Aparência",
-      "legendLabel": "Configure a aparência e o comportamento da aplicação.",
+      "legend": "Aspeto",
+      "legendLabel": "Configura o aspeto e a experiência da aplicação.",
       "theme": {
         "label": "Tema:",
         "options": {
@@ -652,7 +652,7 @@
       },
       "expandedOptions": {
         "label": "Seletor adicional:",
-        "hint": "Escolha qual seletor extra será exibido antes da transferência.",
+        "hint": "Escolhe qual o seletor extra mostrado antes da transferência.",
         "options": {
           "none": "Nenhum",
           "encodings": "Codificações",
@@ -662,146 +662,146 @@
     },
     "network": {
       "legend": "Rede",
-      "legendLabel": "Configure como a aplicação se liga à Internet.",
+      "legendLabel": "Configura como a aplicação se liga à internet.",
       "enableProxy": {
-        "label": "Ligar via proxy:"
+        "label": "Ligar através de proxy:"
       },
       "proxy": {
-        "label": "Configuração de proxy:"
+        "label": "Configuração do proxy:"
       },
       "impersonate": {
-        "label": "Personificação:",
-        "hint": "Simula um SO ou navegador específico, para prevenir a impressão digital (fingerprinting).",
+        "label": "Mascarar cliente:",
+        "hint": "Faz a aplicação identificar-se como um sistema operativo ou navegador específico, para reduzir o fingerprinting.",
         "options": {
-          "none": "Não personificar",
-          "any": "Personificar um cliente aleatório"
+          "none": "Não mascarar",
+          "any": "Mascarar como cliente aleatório"
         }
       },
       "extractorArgs": {
         "label": "Argumentos do extrator:",
-        "hint": "Personalize os argumentos do extrator do yt-dlp. Um argumento por linha.",
+        "hint": "Personaliza os argumentos do extrator para o yt-dlp. Um argumento por linha.",
         "placeholder": "youtube:player_js_variant=main",
-        "flagWarning": "Digite apenas o valor. A app adiciona --extractor-args automaticamente."
+        "flagWarning": "Introduz apenas o valor. A aplicação adiciona --extractor-args automaticamente."
       }
     },
     "sponsorBlock": {
       "legend": "SponsorBlock",
-      "legendLabel": "Remova ou marque partes de um vídeo.",
+      "legendLabel": "Remover ou marcar partes de um vídeo.",
       "removeParts": {
-        "label": "Partes para remover:",
-        "placeholder": "Selecione 1 ou mais partes para remover do vídeo."
+        "label": "Partes a remover",
+        "placeholder": "Seleciona 1 ou mais partes para remover do vídeo."
       },
       "markParts": {
-        "label": "Partes para marcar:",
-        "placeholder": "Selecione 1 ou mais partes para marcar com um capítulo."
+        "label": "Partes a marcar",
+        "placeholder": "Seleciona 1 ou mais partes para marcar com um capítulo."
       },
       "apiUrl": {
-        "label": "URL da API:"
+        "label": "URL da API"
       },
       "preciseCuts": {
         "label": "Corte preciso:",
-        "hint": "Faz com que as remoções do SponsorBlock e transferências parciais cortem em fotogramas exatos. Muito lento.\nAtive apenas se os cortes normais estiverem errados, truncados ou tiverem segmentos pretos/em falta."
+        "hint": "Faz com que as remoções do SponsorBlock e as transferências parciais cortem nos fotogramas exatos. Muito lento.\nAtiva apenas se os cortes normais estiverem errados, distorcidos ou tiverem segmentos pretos/em falta."
       },
       "parts": {
         "sponsor": {
-          "label": "Patrocinador",
-          "description": "Promoção paga de produtos ou serviços pelo criador ou por terceiros."
+          "label": "Patrocínio",
+          "description": "Promoção paga de produto ou serviço pelo criador ou por terceiros."
         },
         "selfpromo": {
-          "label": "Autopromoção / Não remunerado",
-          "description": "Promoção própria do criador de produtos, serviços ou canais (não remunerada)."
+          "label": "Autopromoção / Não pago",
+          "description": "Promoção do próprio criador a merchandising, serviços ou canais (não paga)."
         },
         "interaction": {
           "label": "Lembrete de interação",
-          "description": "Lembretes para curtir/inscrever-se/seguir ou interagir com o criador."
+          "description": "Lembretes para pôr gosto, subscrever, seguir ou interagir com o criador."
         },
         "intro": {
-          "label": "Introdução / Intervalo",
-          "description": "Animação de introdução, intervalo ou pausa sem conteúdo no início."
+          "label": "Introdução / Interlúdio",
+          "description": "Animação de introdução, interlúdio ou pausa sem conteúdo no início."
         },
         "outro": {
-          "label": "Encerramento / Cartões finais / Créditos",
-          "description": "Cartões finais, créditos ou segmento de fechamento perto do final."
+          "label": "Final / End cards / Créditos",
+          "description": "End cards, créditos ou segmento de encerramento perto do fim."
         },
         "hook": {
-          "label": "Introdução / Saudações",
-          "description": "Introduções narradas para o próximo vídeo, saudações e despedidas."
+          "label": "Teaser / Saudações",
+          "description": "Antevisões narradas do vídeo seguinte, saudações e despedidas."
         },
         "music_offtopic": {
-          "label": "Secção não musical",
-          "description": "Trechos falados ou distrações em vídeos com música."
+          "label": "Secção sem música",
+          "description": "Partes de fala ou distrações em vídeos com música."
         },
         "preview": {
-          "label": "Prévia / Recapitulação",
-          "description": "Prévia do conteúdo que está por vir ou recapitulação dos segmentos anteriores."
+          "label": "Pré-visualização / Recapitulação",
+          "description": "Pré-visualização do conteúdo seguinte ou recapitulação de segmentos anteriores."
         },
         "filler": {
-          "label": "Preenchimento / Tangentes",
-          "description": "Tangentes, piadas ou cenas de preenchimento que não são necessárias para compreender o conteúdo principal."
+          "label": "Enchimento / Desvios",
+          "description": "Desvios, piadas ou cenas de enchimento não necessárias para compreender o conteúdo principal."
         },
         "chapter": {
           "label": "Capítulo",
-          "description": "Marca um capítulo/secção do vídeo (usado com o tipo de ação de capítulo)."
+          "description": "Marca um capítulo/secção do vídeo (utilizado com o tipo de ação de capítulo)."
         }
       }
     },
     "update": {
       "legend": "Atualizações",
-      "legendLabel": "Escolha quais partes da app devem ser atualizadas automaticamente.",
+      "legendLabel": "Escolhe que partes da aplicação devem ser atualizadas automaticamente.",
       "updateBinaries": {
-        "label": "Atualizar ferramentas automaticamente:",
-        "hint": "O OVD usa ferramentas como yt-dlp e FFmpeg para transferir vídeos. Ative isto para as manter atualizadas."
+        "label": "Atualizar automaticamente ferramentas:",
+        "hint": "O OVD utiliza ferramentas como yt-dlp e ffmpeg para transferir vídeos. Ativa isto para as manter atualizadas."
       },
       "updateApp": {
-        "label": "Atualizar automaticamente a app:",
-        "hint": "Ative isto para receber novos recursos e correções de erros assim que uma nova versão seja lançada."
+        "label": "Atualizar automaticamente a aplicação:",
+        "hint": "Ativa esta opção para receber novas funcionalidades e correções logo que seja lançada uma nova versão."
       }
     },
     "system": {
       "legend": "Sistema",
-      "legendLabel": "Configure como esta aplicação se integra no sistema.",
+      "legendLabel": "Configura como esta aplicação se integra no sistema.",
       "trayEnabled": {
         "label": {
           "mac": "Mostrar ícone na barra de menus",
-          "generic": "Mostrar ícone na bandeja do sistema"
+          "generic": "Mostrar ícone na área de notificação"
         },
         "hint": {
           "mac": "Mostra um ícone na barra de menus para acesso rápido.",
-          "generic": "Mostra um ícone na bandeja do sistema para acesso rápido."
+          "generic": "Mostra um ícone na área de notificação para acesso rápido."
         }
       },
       "minimiseToTray": {
-        "label": "Minimizar para a bandeja ao fechar",
-        "hint": "Ao fechar a janela, a app é ocultada na bandeja do sistema em vez de ser encerrada."
+        "label": "Minimizar para a área de notificação ao fechar",
+        "hint": "Ao fechar a janela, a aplicação é escondida na área de notificação em vez de sair."
       },
       "autoStart": {
         "label": "Iniciar ao iniciar sessão",
-        "hint": "Inicia o Open Video Downloader automaticamente ao iniciar sessão."
+        "hint": "Inicia o Open Video Downloader automaticamente quando iniciares sessão."
       },
       "autoStartMinimised": {
         "label": {
           "mac": "Iniciar oculto ao iniciar sessão",
-          "windows": "Iniciar minimizado na bandeja ao iniciar sessão",
+          "windows": "Iniciar minimizado na área de notificação ao iniciar sessão",
           "generic": "Iniciar oculto ao iniciar sessão (não recomendado)"
         },
         "hint": {
-          "mac": "Quando a app inicia ao iniciar sessão, nenhuma janela é aberta. Use o ícone da barra de menus ou do Dock para abri-la.",
-          "windows": "Quando a app inicia ao iniciar sessão, ela é iniciada na bandeja do sistema sem abrir uma janela.",
-          "generic": "Quando a app inicia ao iniciar sessão, nenhuma janela é aberta."
+          "mac": "Quando a aplicação iniciar com a sessão, não abrirá nenhuma janela. Utiliza a barra de menus ou o ícone na Dock para a abrir.",
+          "windows": "Quando a aplicação iniciar com a sessão, ficará na área de notificação sem abrir nenhuma janela.",
+          "generic": "Quando a aplicação iniciar com a sessão, não abrirá nenhuma janela."
         }
       }
     },
     "notifications": {
       "legend": "Notificações",
-      "legendLabel": "Configure quando as notificações são enviadas.",
+      "legendLabel": "Configura quando as notificações são enviadas.",
       "behavior": {
         "label": "Mostrar notificações:",
         "options": {
           "always": "Sempre",
-          "onBackground": "Quando em segundo plano",
+          "onBackground": "Quando estiver em segundo plano",
           "never": "Nunca"
         },
-        "hint": "Dica: as notificações podem ser úteis ao usar atalhos."
+        "hint": "Dica: as notificações podem ser úteis ao utilizar a aplicação com atalhos."
       },
       "disabled": {
         "label": "Ativar/desativar notificações específicas",
@@ -811,68 +811,68 @@
           "queueDownloading": "Fila em transferência",
           "queueFinished": "Fila concluída",
           "videoFinished": "Vídeo concluído",
-          "playlistFinished": "Lista de reprodução concluída",
-          "downloadFailed": "Falha na transferência",
+          "playlistFinished": "Playlist concluída",
+          "downloadFailed": "Transferência falhada",
           "videoReady": "Vídeo pronto",
-          "playlistReady": "Lista de reprodução pronta"
+          "playlistReady": "Playlist pronta"
         }
       }
     },
     "toasts": {
       "saved": "Definições guardadas!",
-      "reset": "Definições restauradas para o padrão."
+      "reset": "Definições repostas para os valores predefinidos."
     }
   },
   "updater": {
     "available": "Atualização disponível!",
     "install": {
       "title": "Instalar atualização",
-      "subtitle": "Isto reiniciará a aplicação."
+      "subtitle": "A aplicação será reiniciada."
     },
     "downloading": "A transferir atualização…"
   },
   "install": {
     "title": {
-      "installing": "A instalar as ferramentas necessárias…",
+      "installing": "A instalar ferramentas necessárias…",
       "failed": "Falha ao instalar algumas ferramentas necessárias.",
       "installed": "Ferramentas necessárias instaladas."
     },
     "subtitle": {
       "installing": "Estamos a preparar tudo.",
-      "failed": "A aplicação pode não funcionar como esperado. Por favor, informe-nos sobre isso.",
-      "installed": "Pronto para transferir!"
+      "failed": "A aplicação pode não funcionar como esperado. Reporta este problema.",
+      "installed": "Pronto a transferir!"
     }
   },
   "components": {
     "base": {
       "emptyState": {
-        "title": "A sua fila está vazia",
-        "subtitle": "Adicione alguns vídeos para começar."
+        "title": "A tua fila está vazia",
+        "subtitle": "Adiciona alguns vídeos para começar."
       },
       "dragState": {
-        "title": "Arraste para adicionar à fila",
-        "subtitle": "Adicione à fila arrastrando vídeos."
+        "title": "Larga para adicionar à fila",
+        "subtitle": "Adiciona à fila arrastando vídeos."
       },
       "fileInput": {
         "select": "Selecionar ficheiro",
-        "placeholder": "Selecione um ficheiro…",
+        "placeholder": "Seleciona um ficheiro…",
         "invalid": "Ficheiro inválido.",
         "clear": "Limpar ficheiro",
         "recents": {
           "clear": "Limpar ficheiros recentes",
           "open": "Abrir seleções recentes",
-          "empty": "Nenhuma seleção recente"
+          "empty": "Sem seleções recentes"
         }
       },
       "folderInput": {
         "select": "Selecionar pasta",
-        "placeholder": "Selecione uma pasta…",
+        "placeholder": "Seleciona uma pasta…",
         "invalid": "Pasta inválida.",
         "clear": "Limpar pasta",
         "recents": {
           "clear": "Limpar pastas recentes",
           "open": "Abrir seleções recentes",
-          "empty": "Nenhuma seleção recente"
+          "empty": "Sem seleções recentes"
         }
       },
       "secretInput": {
@@ -881,7 +881,7 @@
         "clear": "Limpar {label}"
       },
       "toolCard": {
-        "failed": "Falha ao instalar esta ferramenta. Expanda para obter mais informações."
+        "failed": "Falha ao instalar esta ferramenta. Expande para mais informações."
       }
     }
   },
@@ -889,35 +889,35 @@
     "runner": {
       "internal": {
         "shortMessage": "Erro interno",
-        "message": "Ocorreu um erro interno durante o processamento deste item."
+        "message": "Ocorreu um erro interno ao processar este item."
       },
       "signInRequired": {
-        "shortMessage": "É necessário efetuar login",
-        "message": "Você precisa iniciar sessão para visualizar este conteúdo."
+        "shortMessage": "Início de sessão necessário",
+        "message": "Tens de iniciar sessão para veres este conteúdo."
       },
       "membersOnly": {
-        "shortMessage": "Apenas para membros",
-        "message": "Este vídeo está disponível apenas para membros do canal."
+        "shortMessage": "Só para membros",
+        "message": "Este vídeo só está disponível para membros do canal."
       },
       "geoBlocked": {
-        "shortMessage": "Região bloqueada",
-        "message": "Este conteúdo não está disponível na sua região."
+        "shortMessage": "Bloqueado por região",
+        "message": "Este conteúdo não está disponível na tua região."
       },
       "accessForbidden403": {
         "shortMessage": "Acesso proibido",
-        "message": "Você não tem permissão para aceder a este recurso (HTTP 403)."
+        "message": "Não tens permissão para aceder a este recurso (HTTP 403)."
       },
       "notFound404": {
         "shortMessage": "Não encontrado",
-        "message": "O vídeo ou lista de reprodução solicitada não foi encontrada (HTTP 404)."
+        "message": "O vídeo ou a playlist pedidos não foram encontrados (HTTP 404)."
       },
       "server5xx": {
         "shortMessage": "Erro do servidor",
-        "message": "Ocorreu um problema temporário no servidor. Tente novamente mais tarde."
+        "message": "Ocorreu um problema temporário no servidor. Tenta novamente mais tarde."
       },
       "rateLimited429": {
-        "shortMessage": "Taxa limitada",
-        "message": "Foram enviadas muitas solicitações. Aguarde e tente novamente."
+        "shortMessage": "Limite excedido",
+        "message": "Foram enviados demasiados pedidos. Aguarda e tenta novamente."
       },
       "requestedFormatUnavailable": {
         "shortMessage": "Formato indisponível",
@@ -929,19 +929,19 @@
       },
       "unableToExtractIdOrInfo": {
         "shortMessage": "Erro de metadados",
-        "message": "Falha ao extrair informações do vídeo ou do uploader."
+        "message": "Falha ao extrair a informação do vídeo ou do autor."
       },
       "nsigExtractionFailed": {
         "shortMessage": "Falha na assinatura",
-        "message": "Falha ao extrair ou decodificar a assinatura do vídeo."
+        "message": "Falha ao extrair ou descodificar a assinatura do vídeo."
       },
       "embedOnly": {
-        "shortMessage": "Vídeo exclusivo para incorporação",
-        "message": "Este vídeo só pode ser acedido através de um reprodutor incorporado."
+        "shortMessage": "Vídeo apenas incorporado",
+        "message": "Este vídeo só pode ser acedido através de um leitor incorporado."
       },
       "urlUnsupported": {
         "shortMessage": "URL inválido",
-        "message": "O link fornecido não é compatível ou reconhecido."
+        "message": "O link fornecido não é suportado nem reconhecido."
       },
       "unknownUrlType": {
         "shortMessage": "Tipo de URL desconhecido",
@@ -949,19 +949,19 @@
       },
       "networkNameResolutionFailed": {
         "shortMessage": "Erro de rede",
-        "message": "Não foi possível resolver o nome do host. Verifique a sua ligação à Internet."
+        "message": "Não foi possível resolver o nome do anfitrião. Verifica a tua ligação à internet."
       },
       "unableToConnectToProxy": {
-        "shortMessage": "Falha na conexão com o proxy",
-        "message": "Não foi possível ligar ao proxy. Verifique as definições do proxy."
+        "shortMessage": "Falha na ligação ao proxy",
+        "message": "Não foi possível ligar ao proxy. Verifica as definições do proxy."
       },
       "signInRequiredForBotDetection": {
-        "shortMessage": "É necessário efetuar login",
-        "message": "Faça login para confirmar que não é um bot."
+        "shortMessage": "Início de sessão necessário",
+        "message": "Inicia sessão para confirmares que não és um bot."
       },
       "playlistPrivateOrMissing": {
-        "shortMessage": "Lista de reprodução indisponível",
-        "message": "Esta lista de reprodução é privada ou já não existe."
+        "shortMessage": "Playlist indisponível",
+        "message": "Esta playlist é privada ou já não existe."
       },
       "videoNotFoundOrPrivate": {
         "shortMessage": "Vídeo indisponível",
@@ -969,19 +969,19 @@
       },
       "channelUnavailable": {
         "shortMessage": "Canal indisponível",
-        "message": "O canal que hospeda este conteúdo já não está acessível."
+        "message": "O canal que aloja este conteúdo já não está acessível."
       },
       "ffmpegNotFound": {
-        "shortMessage": "FFmpeg não encontrado",
-        "message": "A transcodificação para MP3 ou MP4 requer o FFmpeg."
+        "shortMessage": "ffmpeg não encontrado",
+        "message": "A transcodificação para mp3 ou mp4 requer o ffmpeg."
       },
       "ffmpegFailed": {
-        "shortMessage": "O FFmpeg falhou",
+        "shortMessage": "ffmpeg falhou",
         "message": "O FFmpeg encontrou um erro durante o processamento."
       },
       "cannotAllocateMemory": {
         "shortMessage": "Erro de memória",
-        "message": "O FFmpeg ficou sem memória durante o processamento do vídeo."
+        "message": "O FFmpeg ficou sem memória ao processar o vídeo."
       },
       "permissionDenied": {
         "shortMessage": "Permissão negada",
@@ -989,51 +989,51 @@
       },
       "noWritePermission": {
         "shortMessage": "Não é possível escrever",
-        "message": "O caminho de destino não é gravável."
+        "message": "O caminho de destino não tem permissão de escrita."
       },
       "windowsFileMissing": {
-        "shortMessage": "Ficheiro ausente",
-        "message": "O ficheiro referenciado não foi encontrado (WinError 2)."
+        "shortMessage": "Ficheiro em falta",
+        "message": "O ficheiro referido não foi encontrado (WinError 2)."
       },
       "blockedGeneric": {
         "shortMessage": "Vídeo bloqueado",
         "message": "Este vídeo está bloqueado e não pode ser transferido."
       },
       "copyrightClaimed": {
-        "shortMessage": "Bloqueio de direitos autorais",
-        "message": "O vídeo foi bloqueado devido a uma reclamação de direitos autorais."
+        "shortMessage": "Bloqueio por direitos de autor",
+        "message": "O vídeo foi bloqueado devido a uma reclamação de direitos de autor."
       },
       "notPremieredYet": {
         "shortMessage": "Ainda não estreou",
-        "message": "Este vídeo não estará disponível até ao início da sua estreia."
+        "message": "Este vídeo não estará disponível até a estreia começar."
       },
       "livestreamNotStarted": {
-        "shortMessage": "Transmissão ao vivo pendente",
-        "message": "A transmissão ao vivo ainda não começou. Por favor, retorne mais tarde."
+        "shortMessage": "Transmissão ainda não começou",
+        "message": "A transmissão em direto ainda não começou. Volta a verificar mais tarde."
       },
       "sslVerifyFailed": {
-        "shortMessage": "Falha no SSL",
-        "message": "Não foi possível verificar a conexão segura. Verifique os seus certificados ou a data/hora."
+        "shortMessage": "Falha SSL",
+        "message": "Não foi possível verificar a ligação segura. Verifica os teus certificados ou a data/hora."
       },
       "sponsorBlockUnreachable": {
         "shortMessage": "SponsorBlock indisponível",
-        "message": "Não foi possível ligar-se à API do SponsorBlock para obter dados de segmento."
+        "message": "Não foi possível ligar à API do SponsorBlock para obter os dados dos segmentos."
       },
       "downloadRetryingFragment": {
         "shortMessage": "A tentar novamente o fragmento",
-        "message": "A transferência de um fragmento falhou e será tentada novamente automaticamente."
+        "message": "A transferência de um fragmento falhou e será repetida automaticamente."
       },
       "unknown": {
         "shortMessage": "Erro desconhecido",
-        "message": "Ocorreu um erro desconhecido durante o processamento deste item."
+        "message": "Ocorreu um erro desconhecido ao processar este item."
       }
     }
   },
   "about": {
     "title": "Acerca de",
-    "credit": "Feito com ❤ por jely2002 & colaboradores",
-    "poweredBy": "Impulsionado por código aberto:",
-    "viewLicenses": "Exibir licenças",
+    "credit": "Feito com ❤ por jely2002 e colaboradores",
+    "poweredBy": "Baseado em código aberto:",
+    "viewLicenses": "Ver licenças",
     "version": "Versão: {version}",
     "links": {
       "github": "GitHub",
